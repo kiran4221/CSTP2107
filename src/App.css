@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.user-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.user_card {
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.user_info {
+  margin-top: 15px;
+}
+
+.user_info h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.user_info p {
+  font-size: 15px;
+}
